@@ -13,34 +13,38 @@
 
   <a-scene embedded arjs='sourceType: webcam;'>
 
-    <a-image src="image.png"></a-image>
-
-    <a-text value="<I+D>"></a-text>
-
-    <!-- define a gltf asset -->
+    <!-- define a gltf asset
     <a-assets>
       <a-asset-item id="tree" src="/path/to/tree.gltf"></a-asset-item>
     </a-assets>
+    -->
 
-    <!-- use the gltf model -->
+    <!-- use the gltf model
     <a-entity gltf-model="##tree"></a-entity>
+    -->
 
-    <!-- handle marker with own pattern -->
+    <!-- handle marker with own pattern
     <a-marker type='pattern' patternUrl='ongaku-marker.patt'>
       <a-box position='0 0.5 0' material='color: red;'></a-box>
     </a-marker>
+    -->
 
-    <!-- handle marker with hiro preset -->
-    <a-marker preset='hiro'>
-      <a-box position='0 0.5 0' material='color: green;'></a-box>
-    </a-marker>
-
-    <!-- handle barcode marker -->
+    <!-- handle barcode marker 
     <a-marker type='barcode' value='5'>
       <a-box position='0 0.5 0' material='color: blue;'></a-box>
     </a-marker>
+    -->
 
-    <!-- add a simple camera -->
+    <!-- handle marker with hiro preset -->
+    <a-marker preset='hiro'>
+      <a-box position='0 0.5 0' material='opacity: 0.5; side:double; color:red;'>
+        <a-image src="llamita.gif">
+          <a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+        </a-image>
+      </a-box>
+    </a-marker>
+
+    
     <a-entity camera></a-entity>
 
   </a-scene>
