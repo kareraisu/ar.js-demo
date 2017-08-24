@@ -1,0 +1,28 @@
+{
+  "engines": {
+    "node": "6.9.0"
+  },
+  "name": "ar.js-demo",
+  "version": "1.0.0",
+  "description": "ar.js demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareraisu/ar.js-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "ar.js"
+  ],
+  "author": "kareraisu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+  }
+}
