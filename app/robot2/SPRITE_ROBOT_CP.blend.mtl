@@ -1,0 +1,157 @@
+# Blender MTL File: 'SPRITE_ROBOT_CP.blend.blend'
+# Material Count: 13
+
+newmtl ARM
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/ARM.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL LEG.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl ARM_NORMAL_ARM
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL ARM.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL LEG.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl BODY
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/BODY NORMAL.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/BODY NORMAL.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl EYES
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/EYES.png
+
+newmtl EYES_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/EYES.png
+
+newmtl GREY
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.046962 0.046962 0.046962
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/LEG.png
+
+newmtl GREY_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.046962 0.046962 0.046962
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl HEAD
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.787399 0.093227 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/HEAD NORMAL.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/HEAD NORMAL.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl HINGE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/HINGE NORMAL.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/HINGE NORMAL.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl LEG
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/LEG.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL LEG.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl LEG_NORMAL_LEG
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL LEG.png
+map_Bump /Users/Alejandro/Downloads/animated-humanoid-robot/textures/NORMAL LEG.png
+refl /Users/Alejandro/Downloads/animated-humanoid-robot/textures/reflection.jpg
+
+newmtl ORANGE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.787399 0.093227 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Alejandro/Downloads/animated-humanoid-robot/textures/LEG.png
+
+newmtl ORANGE_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.787399 0.093227 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
