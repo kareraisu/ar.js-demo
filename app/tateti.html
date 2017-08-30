@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VR.js test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script src="js/aframe-extras.loaders.js"></script>
+  <script src="js/tateti.js"></script>
+
+  <script>
+    AFRAME.registerComponent('draw-canvas', {
+      schema: {default: ''},
+      init: function () {
+        cvs = document.getElementById(this.data)
+        ctx = cvs.getContext('2d')
+      }
+    })
+  </script>
+
+  <style>
+    #arjsDebugUIContainer {display: none;}
+  </style>
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+  <a-scene stats=false embedded arjs='sourceType: webcam;'>
+
+    <a-assets>
+      <canvas id="my-canvas" crossorigin="anonymous"></canvas>
+    </a-assets>
+
+    <a-marker preset='hiro'>
+        <a-entity geometry="primitive: plane"
+          material="src: #my-canvas"
+          draw-canvas="my-canvas"
+          scale="2 2 2"></a-entity>
+    </a-marker>
+    
+    <a-entity camera></a-entity>
+
+  </a-scene>
+
+</body>
+
+</html>
